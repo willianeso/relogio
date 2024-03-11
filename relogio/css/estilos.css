@@ -1,0 +1,51 @@
+body{
+    background: url('../images/por do sol.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+
+.dati{
+    border-radius: 10px;
+    width: 170px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px rgba(0, 0, 0, 0.219) solid;
+    gap: 1px;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.central{
+    background: rgba(255, 255, 255, 0.13);
+    height: 200px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    font-size: 75px;
+    gap: 5px;
+}
+
+.central div{
+    border-radius: 20px;
+    width: 95px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px black solid;
+}
+
